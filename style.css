@@ -1,0 +1,278 @@
+body {
+	font-family:'Lato', Calibri, Arial, sans-serif;
+}
+
+.title_div {
+	width: 50%;
+    margin: auto;
+    float: left;
+}
+
+.title_name {
+	width: 27%;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.btn-toggle-nav {
+	color: #ff2c42;
+    border: 0px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.btn-toggle-nav:avtive {
+	box-shadow: 1px 1px #524770;
+}
+
+.cover_bg {
+	background-color: #4c27b3;
+	color: #ff2c42;
+	padding-top: 1%;
+}
+
+main {
+	height: 360px;
+}
+
+.cover-heading {
+	width: 40%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.cover-heading h1 {
+	font-size: 3.5rem;
+}
+
+.menu_list {
+	position: fixed;
+	right: 0;
+	width: 50%;
+	z-index: 1000;	
+	transition: .2s;
+	visibility: hidden;
+}
+
+.active {
+	right: 27%;
+	transition: .3s;
+	visibility: visible;
+	background-color: #4c27b3;
+	color: #ffffff;
+}
+
+.menu_list ul {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.menu_list ul li {
+	line-height: 60px;
+    list-style: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.menu_list ul li span {
+	display: block;
+	padding-top: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	white-space: nowrap;
+	background-color: #ffffff;
+	color: #4c27b3;
+}
+
+.menu_icons {
+	margin-right: 13%;
+    color: #4c27b3 !important;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 0px auto;
+}
+
+.introduction, .logo, .fb_campaign, .client, .contact {
+	margin: 0px auto;
+    float: left;
+}
+
+.our_introduction {
+	padding: 6%;
+	padding-top: 3%;
+}
+
+.introduction h3 {
+	color: #ff2c42;
+	text-align: left;
+	font-weight: bold;
+}
+
+.introduction p {
+	width: 68%;
+    text-align: left;
+    padding-top: 15%;
+}
+
+.chess {
+	width: 350px;
+}
+
+.many_clients {
+	padding: 5%;
+}
+
+.many_clients h3 {
+	text-align: left;
+	color: #ff2c42;
+	margin-left: 2%;
+}
+
+.fb_campaign {    
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.fb_campaign_text {
+	padding: 11%;
+    width: 68%;
+    margin: auto;
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+hr {
+	width: 30%;
+    margin: 0px;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.campaign_red {
+	background-color: #ff2c42;
+}
+
+.campaign_green {
+	background-color: #00e3b5;
+}
+
+.campaign_blue {
+	background-color: #592ed6;
+}
+
+.get_in_touch {
+	background-color: #00e3b5;
+	color: #ffffff;
+	padding: 5%;
+}
+
+.get_in_touch span i {
+    vertical-align: middle;
+    font-size: 18px;
+    margin-right: 2%;
+}
+
+.get_in_touch h2 {
+	color: #4c27b3;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.btn-submit {
+	width: 100%;
+    color: #ffffff;
+    background-color: #4c27b3;
+    border: 0px;
+    padding: 4px;
+}
+
+.contact {
+	text-align: left;
+	padding: 20px;	
+}
+
+textarea {
+	width: 100%;
+}
+
+.footer {
+	background-color: #4c27b3;
+	padding: 4%;
+}
+
+.footer-logo {
+	width: 30%;
+    opacity: 0.3;
+    position: relative;
+}
+
+.nav-footer {
+	position: absolute;
+    width: 79%;
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+.nav-footer ul {
+	list-style: none;
+}
+
+.nav-footer ul li {
+    line-height: 60px;
+    list-style: none;
+    font-size: 19px;
+    width: 20%;
+    margin: 0px auto;
+    float: left;
+}
+
+.reg {
+	color: #ffffff;
+    font-size: 12px;
+    display: flex;
+}
+
+.reg p {
+	align-self: flex-end;
+}
+
+
+----------------------------------------------------------------
+
+
+.slideshow-container {
+	background-color: red;
+	height: 415px;
+}
+
+.slides img {
+	display: none;
+	height: 100%;
+}
+
+.slides img.active {
+	display: block;
+    border: 2px solid black;
+    height: 400px;
+    width: 56%;
+    margin: auto;
+}
+
+.prevbtn, .nextbtn {
+	border: 1px solid black;
+    font-size: 27px;
+    width: 45px;
+    margin: 2%;
+    background-color: black;
+    color: #ffffff;
+    box-shadow: 2px 4px #999;
+}
+
+.prevbtn:active, .nextbtn:active {
+	box-shadow: 5px 5px #666;
+  	transform: translateY(4px);
+}
